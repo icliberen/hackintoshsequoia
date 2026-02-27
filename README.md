@@ -33,7 +33,7 @@ Before booting the USB, ensure the following BIOS settings are configured correc
 3. **MCE Reporter Disabler:** Injected `AppleMCEReporterDisabler.kext` to prevent early Kernel Panics caused by the `MacPro7,1` SMBIOS probing AMD processors for memory errors.
 4. **AMFI Fix for Sequoia:** Injected `AMFIPass.kext` and `-amfipassbeta` boot argument to pass the `Loading FileSet KC(s)` phase.
 5. **GPU Acceleration:** `agdpmod=pikera` is included. `-radvesa` was removed to allow the RX 570 to initialize hardware acceleration natively during the installer phase.
-6. **Network Limitations:** The onboard Dragon 5G LAN (Realtek 8126) is entirely unsupported by macOS at this time. Network access during installation requires USB Tethering, a compatible USB Wi-Fi dongle, or a USB-to-Ethernet adapter (e.g., RTL8153).
+6. **Network Limitations:** The onboard Dragon 5G LAN (Realtek 8126) is entirely unsupported by macOS at this time. Network access during installation requires USB Tethering, and an USB-to-Ethernet adapter (e.g., RTL8153).
 
 ## Credits
 * [Dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/)
