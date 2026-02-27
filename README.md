@@ -1,4 +1,4 @@
-# MSI B850M-G Hackintosh (macOS Sequoia)
+# AMD Ryzen 5 9600X Hackintosh (Sequoia) - Opencore EFI for MSI B850M-G 
 
 This repository contains the OpenCore EFI folder for installing and running macOS Sequoia on an MSI B850M-G motherboard with an AMD Ryzen 5 9600X processor and an AMD Radeon RX 570 graphics card.
 
